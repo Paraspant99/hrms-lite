@@ -2,17 +2,27 @@
 .DS_Store
 
 # Node
-node_modules
-**/node_modules
+node_modules/
+**/node_modules/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Env secrets
+# Environment files
+.env
 backend/.env
 frontend/.env
 **/.env
 
-# Build output
-frontend/dist
+# Build outputs
+dist/
+build/
+frontend/dist/
 
+# VSCode
+.vscode/
+
+# Coverage
+coverage/
